@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    display: block;
+    background: linear-gradient(rgba(47, 4, 240, 0.7), rgba(0,0,0,0.7) ), url(./foccus.jpg);
+    width: 100%;
+    height: 100vh;
+    font: 33px;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+.nav{
+    display: block;
+    text-decoration: none;
+    
+    
+}
+.nav, ul{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+.nav, ul,li{
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    
+
+}
+.nav, ul,li,a{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+}
+.hero{
+    display: block;
+    padding: 150px;
+    color: beige;
+}
+.hero, h1{
+    display: block;
+    text-decoration: wavy;
+    color: beige;
+    font-size: 74px;
+    text-align: end;
+    
+}
+span{
+    color: rgb(252, 0, 252);
+    font-style: oblique;
+}
+._hero{
+    display: block;
+    text-decoration: wavy;
+    color: beige;
+    font-size: 54px;
+    
+}
+._hero, h6{
+    display: block;
+    text-decoration: wavy;
+    color: beige;
+    font-size: 54px;
+    
+}
+.btn{
+    color: rgb(7, 7, 7);
+    font-size: 23px;
+}
+button{
+    display: inline - block;
+    color: blue;
+    font-size: 23px;
+    padding: 2px;
+    line-height: 1.4;
+    justify-content: space-between;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: none;
+   
+}
+button:hover{
+    background: rgb(233, 7, 222);
+   
+}
+
+  #our_Team{
+      display: block;
+      font-size: 22px;
+      background-color: black;
+      height: 30vh;
+
+  }
+  #our_Team, h1{
+      font-size: 22px;
+      color: aliceblue;
+      text-align: center;
+     
+  }
+  #our_Team, h2{
+    font-size: 22px;
+    color: aliceblue;
+    text-align: left;
+    padding: 12px;
+
+}
+.wrapper{
+    display: flex;
+    background-color: darkviolet;
+    padding: 12px;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    border: 1px solid #111;
+}
+#name{
+    margin: 0px;
+    display: block;
+    font-size: 22px;
+    text-align: center;
+}
+#Career{
+    display: block;
+    font-size: 19px;
+    color: beige;
+    text-align: center;
+
+}
+#description{
+    display: block;
+    font-size: 14px;
+    color: beige;
+    text-align: left;
+    border: 3px solid rgb(1, 7, 90);
+    border-radius: 2rem;
+    height: 20vh;
+    line-height: 2;
+    margin: 3px;
+    
+}
+.img{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+.profile{
+    width: 50%;
+    height: 100%;
+}
+#title
+{
+    display: block;
+
+}
+#title, h1{
+    display: inline-block;
+    color: rgb(245, 239, 239);
+    text-align: center;
+}
+@media screen { min-width:576px;{
+    .hero
+    {
+        display: grid;
+
+        
+    }
+
+}
+    
+}
+
